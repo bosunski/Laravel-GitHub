@@ -13,7 +13,7 @@
     "require": {
         "php":  "^7.4.15 || ^8.0.2",
         "graham-campbell/bounded-cache": "^1.2 || ^2.2",
-        "graham-campbell/manager": "^5.1",
+        "graham-campbell/manager": "dev-laravel-12-support",
         "guzzlehttp/guzzle": "^7.8.1",
         "guzzlehttp/psr7": "^2.6.2",
         "illuminate/contracts": "^8.75 || ^9.0 || ^10.0 || ^11.0 || ^12.0",
@@ -44,6 +44,12 @@
             "php-http/discovery": true
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/GrahamCampbell/laravel-manager.git"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
