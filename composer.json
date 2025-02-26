@@ -47,7 +47,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/GrahamCampbell/laravel-manager.git"
+            "url": "https://github.com/andrewbroberg/Laravel-Manager.git"
         }
     ],
     "extra": {
